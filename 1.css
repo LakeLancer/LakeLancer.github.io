@@ -1,12 +1,122 @@
-.info {
-	width: 600px;
-	height: 600px;
+*{margin: 0; padding: 0;}
+
+p {
+    font-size: 14px;
+    color: gray;
 }
-.info h1 {
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chutrang h1 {
+    font-weight: bold;
+}
+
+.khoitdto h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.khoitdto i {
+    color: gray;
+    font-size: 19px;
+}
+
+.col-sm-12.khoitdto {
+    margin-top: 80px;
+    margin-bottom: 50px;
+} 
+.top {
+	height: 438px;
+	background: url(Image/menutop.jpg);
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	background-position-y: -169px;
+}
+.profilepic img {
+    position: absolute;
+    z-index: 2;
+    margin-top: 316px;
+    margin-left: 119px;
+}
+.chutrang {
+	color: white;
+}
+
+.chutrang h2 {
+    font-weight: 300px!important;
+}
+.textbanner h1{
+	font-size: 50px;
+	font-family: 'segoe ui';
+}
+
+.textbanner h2{
+	font-style: italic;
+	font-family: 'segoe ui light';
+	font-size: 20px
+}
+.textbanner .nutto{
+	padding: 15px 20px;
+	background-color: #fed136;
+	border-color: #fed136;
+	color: black;
+}
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
+    background-color: transparent;
+}
+
+.textbanner.text-xs-center.chutrang {
+    margin-top: 126px;
+}
+a.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    color: #FED136!important;
+    font-size: 21px;
+}
+.navbar-light.menutop .navbar-nav a.nav-link:hover {
+    color: white;
+}
+.bg-faded {
+    background-color: transparent;
+}
+.dichvu	.col-sm-4 p {
+	text-align: justify;
+}
+.btn.btn-waring.nutto {
+    color: white;
+    font-weight: bold;
+}
+.textsp h4 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.motsanpham {
+	border: 1px solid gray;
+	margin-bottom: 10px;
+}
+.motsanpham .anh {position: relative; height: 251px;}
+.motsanpham .anh img{width: 100%;}
+.motsanpham .anh .vang {width: 100%; height: 100%;
+	background: #fed136;
 	text-align: center;
+	line-height: 270px;
+	position: absolute;
+	top: 0px;
+	transition:0.4s;
+	opacity: 0;
+
 }
-.info img {
-	width: 600px;
-	height: 300px;
-	
+.vang i .fa {
+	font-size: 30px;
+	color: white;
 }
+.motsanpham .anh:hover .vang { opacity: 1;}
+.motsanpham .textsp {}
+.motsanpham .textsp h5 {}
+.motsanpham .textsp i {}
+
